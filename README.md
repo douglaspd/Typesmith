@@ -42,7 +42,7 @@ Você irá desenvolver as camadas de _Service_ e _Controllers_ da aplicação em
 
 - Este projeto é individual.
 - Serão `2` dias de projeto.
-- Data de entrega para avaliação regular do projeto: `26/06/2024 23:59`.
+- Data de entrega para avaliação regular do projeto: `05/06/2024 23:59`.
 
 </details>
 
