@@ -1,6 +1,6 @@
 import { ServiceResponse } from '../../types/ResponseType';
-import ProductModel, { ProductSequelizeModel } from '../models/product.model';
-import UserModel, { UserSequelizeModel } from '../models/user.model';
+import ProductModel from '../models/product.model';
+import UserModel from '../models/user.model';
 
 type UserResponse = {
   username: string,
