@@ -8,9 +8,8 @@ type UserResponse = {
 };
 
 async function list(): Promise<ServiceResponse<UserResponse[]>> {
-  const users = await UserModel.findAll({ 
+  const users = await UserModel.findAll({
     include: { model: ProductModel, as: 'productIds', attributes: ['id'] } });
-  console.log(users);
   if (!users) {
     return { status: 'INVALID_DATA', data: { message: 'Falied Created' } };
   }

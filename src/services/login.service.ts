@@ -17,7 +17,6 @@ Promise<ServiceResponse<TokenResponse | TokenErrorResponse>> {
   const valid = validation.validate(username, password);
   if (valid.status === 'SUCCESS') {
     const user = await UserModel.findOne({ where: { username } });
-    console.log(user?.dataValues.password);
     if (!user) {
       return { status: 'UNAUTHORIZED', data: { message: 'Username or password invalid' } };
     }
