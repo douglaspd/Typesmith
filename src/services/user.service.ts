@@ -1,6 +1,6 @@
-import { ServiceResponse } from '../../types/ResponseType';
-import ProductModel from '../models/product.model';
-import UserModel from '../models/user.model';
+import { ServiceResponse } from '../types/ResponseType';
+import ProductModel from '../database/models/product.model';
+import UserModel from '../database/models/user.model';
 
 type UserResponse = {
   username: string,

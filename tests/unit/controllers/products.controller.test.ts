@@ -2,10 +2,10 @@ import chai, { expect } from 'chai';
 import sinon from 'sinon';
 import sinonChai from 'sinon-chai';
 import { Request, Response } from 'express';
-import productService from '../../../src/database/services/product.service';
-import controllerProducts from '../../../src/database/controller/controller.Products';
+import productService from '../../../src/services/product.service';
+import controllerProducts from '../../../src/controller/controller.Products';
 import response  from '../../mocks/productMock';
-import mapStatus from '../../../src/database/controller/mapStatus';
+import mapStatus from '../../../src/controller/mapStatus';
 import ProductModel from '../../../src/database/models/product.model';
 
 chai.use(sinonChai);

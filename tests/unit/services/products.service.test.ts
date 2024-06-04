@@ -4,7 +4,7 @@ import sinon from 'sinon';
 import { Model } from 'sequelize';
 import ProductModel from '../../../src/database/models/product.model';
 import response from '../../mocks/productMock';
-import productService from '../../../src/database/services/product.service';
+import productService from '../../../src/services/product.service';
 
 chai.use(sinonChai);
 
